@@ -13,8 +13,8 @@ end
 
 function wifi_ap()
   local cfg={}
-  cfg.ssid="nodemcu_bathrom"
-  cfg.pwd="passpass"
+  cfg.ssid="nodemcu_api"
+  cfg.pwd="pass"
   wifi.ap.config(cfg)
 
   local cfg={}
