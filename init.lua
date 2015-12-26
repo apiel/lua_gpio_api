@@ -1,0 +1,11 @@
+dofile("wifi.lua")
+dofile("http.lua")
+dofile("httpd.lua")
+dofile("routes.lua")
+dofile("gpio_watcher.lua")
+dofile("controller_api.lua")
+dofile("controller_gpio.lua")
+dofile("controller_wifi.lua")
+
+wifi_init()
+httpd_init()
